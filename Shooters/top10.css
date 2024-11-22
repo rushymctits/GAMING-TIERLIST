@@ -1,0 +1,44 @@
+h1 {
+    text-align: center; font-size: 100px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.item h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.item p {
+    margin: 0;
+    text-align: center;
+    border: none;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #160101;
+}
+
+
+
